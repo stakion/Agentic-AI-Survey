@@ -30,7 +30,7 @@ Most traditional AI systems are designed as supervised tools with predefined res
 ### Classic failure examples:
 - **Minecraft diamond acquisition** — requires long-term planning, tool use, adaptation, and exploration far beyond rule-based execution.
 - **No Man's Sky** — traditional AI cannot generalize to 18 quintillion procedurally generated planets with unique terrain, creatures, and resources.
-
+<br>
 
 ## What is Agentic AI?
 Agentic AI refers to AI architectures designed to operate as autonomous or semi-autonomous agents capable of performing multi-step tasks, making decisions, and interacting with other agents or systems in a goal-directed manner. The term highlights the notion of **agency**: intentionality, autonomy, and purposeful behavior within defined boundaries.
@@ -42,7 +42,7 @@ Agentic AI refers to AI architectures designed to operate as autonomous or semi-
 | **Self-Sufficient** | Executes high-level decisions without per-step human supervision |
 | **Goal-Directed** | Maintains long-term objectives while handling dynamic sub-tasks |
 | **Collaborative** | Can coordinate with other agents in multi-agent settings |
-
+<br>
 
 ## Core Components of an AI Agent
 ```
@@ -56,6 +56,7 @@ Agentic AI refers to AI architectures designed to operate as autonomous or semi-
 │   └──────────┘   └──────────┘   └──────────┘   └────────┘   │
 └─────────────────────────────────────────────────────────────┘
 ```
+<br>
 
 | Component | Role | Examples |
 |-----------|------|---------|
@@ -65,7 +66,7 @@ Agentic AI refers to AI architectures designed to operate as autonomous or semi-
 | **Memory (Long-Term)** | Stores episodic and semantic knowledge across sessions | Vector DB, knowledge graphs |
 | **Tool Use** | Leverages external functions for context-aware actions | APIs, vector search, code execution |
 | **Self-Reflection** | Learns by critiquing and adjusting its own outputs | Iterative prompting, critic agents |
-
+<br>
 
 ## Key Characteristics
 | Characteristic | Description | Related Technique |
@@ -77,7 +78,7 @@ Agentic AI refers to AI architectures designed to operate as autonomous or semi-
 | **Persistent Memory** | Retains and retrieves context across interactions | Episodic/semantic memory, RAG |
 | **Inter-Agent Communication** | Structured exchange between specialized agents | OVON framework, JSON APIs |
 | **Self-Improvement** | Iterative refinement through feedback loops | RL, meta-prompting, self-verification |
-
+<br>
 
 ## Agentic AI Strategies
 | Strategy | Description | Typical Use Cases |
