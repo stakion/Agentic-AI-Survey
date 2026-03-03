@@ -1,6 +1,7 @@
 # Agentic-AI-Survey
 A dense project surveying the Agentic AI paradigm: architectures, methodologies, RAG systems, applications, challenges, and future directions. This repository consolidates knowledge from foundational presentations, peer-reviewed papers, and applied implementations.
 
+---
 
 ## 📋 Table of Contents
 1. [Overview & Motivation](#overview--motivation)
@@ -23,6 +24,7 @@ A dense project surveying the Agentic AI paradigm: architectures, methodologies,
 18. [Tools & Frameworks](#tools--frameworks)
 19. [References & Related Work](#references--related-work)
 
+---
 
 ## Overview & Motivation
 Most traditional AI systems are designed as supervised tools with predefined restrictions. They perform well on clearly delimited tasks but fail when confronted with dynamic, long-horizon, or parameter-free environments. The Agentic AI paradigm addresses this gap by enabling systems that **perceive, reason, act, and learn** in continuous feedback loops without constant human supervision.
@@ -171,6 +173,36 @@ Agentic AI refers to AI architectures designed to operate as autonomous or semi-
 | **Diffusion Model** | High-quality generative synthesis |
 | **Mixture of Experts (MoE)** | Sparse conditional compute; scalable routing |
 
+
+## Multi-Agent Orchestration Patterns
+
+| Pattern | Structure | Communication Mechanism | Best For |
+|---------|-----------|------------------------|----------|
+| **Sequential Pipeline** | Agent A → Agent B → Agent C | Output chaining | Hallucination mitigation, review workflows |
+| **Parallel Specialized Agents** | Multiple agents work simultaneously | Aggregated results | Speed, diverse expertise |
+| **Hierarchical Delegation** | Manager agent → worker agents | Task assignment + result integration | Large-scale complex tasks |
+| **Critic–Generator Loop** | Generator + Critic in dialogue | Iterative feedback | Scientific reasoning, feature selection |
+| **OVON NLP Framework** | Agents communicate via natural language JSON APIs | Universal NLP-based interfaces | Interoperable multi-system agents |
+
+### Hallucination Mitigation via Multi-Agent Pipelines
+
+*(From: Gosmar & Dahl 2025)*
+
+| Agent Level | Role | LLM Used |
+|-------------|------|----------|
+| **Front-End Agent** | Generates initial response | Variable |
+| **Second-Level Agent** | Detects unverified claims; adds disclaimers | Separate LLM |
+| **Third-Level Agent** | Clarifies speculative content; refines factuality | Separate LLM |
+| **Fourth-Level Evaluator** | Measures KPIs; quantifies hallucination scores | Dedicated evaluator LLM |
+
+#### Hallucination KPIs
+
+| KPI | Definition |
+|-----|-----------|
+| **Factual Claim Density** | Ratio of verifiable factual claims per response unit |
+| **Factual Grounding References** | Count of claims anchored to identifiable sources |
+| **Fictional Disclaimer Frequency** | How often speculative content is explicitly flagged |
+| **Explicit Contextualization Score** | Degree to which context boundaries are demarcated |
 
 
 
