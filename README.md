@@ -329,6 +329,7 @@ Agentic AI refers to AI architectures designed to operate as autonomous or semi-
 
 **Emergent Behaviors:** Information diffusion through natural conversation, relationship memory, autonomous task coordination (e.g., party organization without user prompting).
 <br>
+<br>
 
 
 ### Case Study 3 — Agent Hospital: Evolvable Medical Agents
