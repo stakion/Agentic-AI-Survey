@@ -3,7 +3,6 @@ A dense project surveying the Agentic AI paradigm: architectures, methodologies,
 
 
 ## 📋 Table of Contents
-
 1. [Overview & Motivation](#overview--motivation)
 2. [What is Agentic AI?](#what-is-agentic-ai)
 3. [Core Components of an AI Agent](#core-components-of-an-ai-agent)
@@ -48,13 +47,13 @@ Agentic AI refers to AI architectures designed to operate as autonomous or semi-
 ## Core Components of an AI Agent
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                        AI AGENT                              │
-│                                                              │
-│   ┌──────────┐   ┌──────────┐   ┌──────────┐   ┌────────┐  │
-│   │   LLM    │   │ Planning │   │  Memory  │   │ Tools  │  │
-│   │ (Reason) │   │(Decompose│   │(Short &  │   │(APIs,  │  │
-│   │          │   │& Reflect)│   │Long-term)│   │Search) │  │
-│   └──────────┘   └──────────┘   └──────────┘   └────────┘  │
+│                        AI AGENT                             │
+│                                                             │
+│   ┌──────────┐   ┌──────────┐   ┌──────────┐   ┌────────┐   │
+│   │   LLM    │   │ Planning │   │  Memory  │   │ Tools  │   │
+│   │ (Reason) │   │(Decompose│   │(Short &  │   │(APIs,  │   │
+│   │          │   │& Reflect)│   │Long-term)│   │Search) │   │
+│   └──────────┘   └──────────┘   └──────────┘   └────────┘   │
 └─────────────────────────────────────────────────────────────┘
 ```
 
