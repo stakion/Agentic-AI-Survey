@@ -1,7 +1,6 @@
 # Agentic-AI-Survey
 A dense project surveying the Agentic AI paradigm: architectures, methodologies, RAG systems, applications, challenges, and future directions. This repository consolidates knowledge from foundational presentations, peer-reviewed papers, and applied implementations.
-
----
+<br>
 
 ## 📋 Table of Contents
 1. [Overview & Motivation](#overview--motivation)
@@ -23,8 +22,7 @@ A dense project surveying the Agentic AI paradigm: architectures, methodologies,
 17. [Case Studies](#case-studies)
 18. [Tools & Frameworks](#tools--frameworks)
 19. [References & Related Work](#references--related-work)
-
----
+<br>
 
 ## Overview & Motivation
 Most traditional AI systems are designed as supervised tools with predefined restrictions. They perform well on clearly delimited tasks but fail when confronted with dynamic, long-horizon, or parameter-free environments. The Agentic AI paradigm addresses this gap by enabling systems that **perceive, reason, act, and learn** in continuous feedback loops without constant human supervision.
